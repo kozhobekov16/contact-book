@@ -4,7 +4,6 @@ import React from "react";
 //modal Windows for read more about contact
 import ModalWindowForAccountHistory from "../UI/modalWindowForAccountHistory/ModalWindowForAccountHistory";
 import ModalWindowForAdress from "../UI/modalWindowForAdress/ModalWindowForAdress";
-// import ModalForEdit from "../UI/modalForEdit/ModalForEdit";
 //Here i connected icons
 import { FaUserCircle } from "@react-icons/all-files/fa/FaUserCircle";
 import { FaUniversity } from "@react-icons/all-files/fa/FaUniversity";

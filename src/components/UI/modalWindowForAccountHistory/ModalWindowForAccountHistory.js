@@ -1,8 +1,10 @@
+//component is modal window for account history
 import React, { useState } from 'react';
 import { Modal, Container, Row, Col,Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ModalWindowForAccountHistory = ({ accountHistory }) => {
+    //react hooks for open and close window
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
