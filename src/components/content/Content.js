@@ -1,4 +1,3 @@
-
 //Content component contains of data to output them
 import React from "react";
 //modal Windows for read more about contact
@@ -27,7 +26,8 @@ const Content = () => {
         const datas = await fetch(`https://demo.sibers.com/users`);
         const response = await datas.json();
         setData(response);
-        localStorage.setItem('data', JSON.stringify(data))
+        //localStorage for storage datas
+        localStorage.setItem("data", JSON.stringify(data));
         setLoadaer(true);
       } catch (error) {
         console.error(error);
